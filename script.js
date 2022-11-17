@@ -29,7 +29,7 @@ function searchBooks(searchTerm){
 
         if(title.indexOf(searchTerm.toLowerCase()) >= 0){
             console.log("match?");
-            filteredList.push(bookList[0]);
+            filteredList.push(bookList[i]);
         }
     }
     renderBookList(filteredList); 
